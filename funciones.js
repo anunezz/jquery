@@ -171,6 +171,7 @@ function entidades(ruleForm){
  switch (entidades) {
      case 1:
      {
+     
 
      break;
      }
