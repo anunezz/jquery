@@ -13,6 +13,7 @@
 <div class="container">
   <div class="row">
     <?php   
+   
     if( !isset($tema)){
         $tema = 0;
     ?>
@@ -22,6 +23,7 @@
                 <option value="0">Selecciona un tema por ver</option>
                 <option value="1">callback jquery</option>
                 <option value="2">Separando el DOM jquery</option>
+                <option value="3">funciones javascript</option>
             </select>
             <button type="submit">Ver</button>
          </form>
@@ -50,7 +52,12 @@
     }
     case 2:
     {
-        include("funciones/separandoDOM.php"); 
+    include("funciones/separandoDOM.php"); 
+    break;    
+    }
+    case 3:
+    {
+    include("funciones/funciones.php"); 
     break;    
     }
     }

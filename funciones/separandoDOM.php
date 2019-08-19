@@ -30,4 +30,16 @@
    console.timeEnd("otro tiempo");
 
 
+    function argumentos(){
+        console.log(arguments);
+    }
+
+    argumentos("adrian");
+
+
+
 </script>
+
+
+
+
