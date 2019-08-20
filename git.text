@@ -1,0 +1,55 @@
+1.- CREAR UN USUARIO
+ git config --global user.name "Adrian Nunez Alanis"
+ git config --global user.email adriano_alanis@hotmail.com
+
+INFORMACION DE LA CUENTA
+git config --global -l
+
+AGREGAR tODOS LOS ARCHIVOS EN EL STAGING AREA
+git add .
+
+PARA PASAR TODOS A WORKING DIRECTORY
+git rm --cached 0.txt
+
+PARA CONFIRMAR CON NOMBRE
+git commit - m "Se agrego un nuevo archivo"
+
+git status 
+y se veran archivos cambiados y reflejados
+
+eliminar un archivo normal
+git status
+elimisnaste un archivo working directory
+
+se borra normal de un directorio
+git status
+dira que esta en staging area
+y para recuperarlo es 
+git checkout -- 0.txt
+
+borrarlo desde git
+git rm -0.txt
+git status
+y se vera en verde que paso a stating area
+
+despues git reset HEAD 0.txt
+muestra la infotrmacion del archivo
+D       0.txt
+y para volver a recuperar el archivo es 
+git checkout --0.txt
+
+DIFERENCIAS ENTRE git rm --cached y git reset HEAD
+todo desde nuevo
+se agregan las configuraciones
+se crean 5 archivos nuevos
+se agregan todos con 
+git add . // git status /// git checkout file
+y despues se modifica uno
+y despes se agrega el archivo que se modifico
+git add 0.txt /// git 
+git status // rm --cached 0.txt
+
+
+
+
+
