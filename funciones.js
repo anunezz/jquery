@@ -164,28 +164,7 @@ let ruleForm = {
     localidad:''  
 };
 
-function entidades(ruleForm){
- let { id_pais,pais,id_estado,estado,id_delegacion,delegacion,id_localidad,localidad } = ruleForm;
- var entidades = (id_pais == 0)? 1:2;
 
- switch (entidades) {
-     case 1:
-     {
-     
-
-     break;
-     }
-     default:
-     {
-     console.log("sin resultado de entidades...");
-     break;
-     }
- }
-
-
-}
-
-entidades(ruleForm);
 
 
 
